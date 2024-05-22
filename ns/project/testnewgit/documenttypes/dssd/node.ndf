@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.testnewgit.documenttypes:dssd</value>
+    <value name="node_pkg">TestNewGitProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">flowadmin</value>
+        <value name="createdByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
+        <number name="createdDate" type="Long">1716393055042</number>
+        <value name="lastModifiedBy">flowadmin</value>
+        <value name="lastModifiedByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
+        <number name="lastModifiedDate" type="Long">1716393055049</number>
+      </record>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">36e46944963644a29fd50153599a394f</value>
+    <value name="originURI">Order (1) 1.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">tns:PurchaseOrder</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://tempuri.org/PurchaseOrderSchema.xsd</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">project.testnewgit.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
