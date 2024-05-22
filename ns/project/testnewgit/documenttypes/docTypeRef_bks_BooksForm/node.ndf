@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.testnewgit.documenttypes:docTypeRef_bks_BooksForm</value>
+    <value name="node_pkg">TestNewGitProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">flowadmin</value>
+        <value name="createdByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
+        <number name="createdDate" type="Long">1716386599597</number>
+        <value name="lastModifiedBy">flowadmin</value>
+        <value name="lastModifiedByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
+        <number name="lastModifiedDate" type="Long">1716386599597</number>
+      </record>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">470cf4598d25433ea49b3dd3db8c9820</value>
+    <value name="docTypeDomain">f05b0babfb4d4bc8b9c521f13513db7f</value>
+    <value name="originURI">books.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">book</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">project.testnewgit.documenttypes:docTypeRef_bks_BookForm</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">urn:books</value>
+      <value name="ncName">BooksForm</value>
+    </record>
+    <value name="schemaRegistered">true</value>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
