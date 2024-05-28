@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestNewGitProject
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: EdgePkg1
+  gitServerName: testInternal
+  gitUrl: https://github.webmethods.io/hasv
+  gitUsername: poan
+  gitBranch: master
