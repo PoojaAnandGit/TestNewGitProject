@@ -45,28 +45,24 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">flowadmin</value>
-    <value name="createdDate">1716880371305</value>
-    <value name="lastModifiedDate">1716880371305</value>
+    <value name="lastModifiedBy">flowadmin</value>
+    <value name="lastModifiedDate">1719892281590</value>
     <value name="displayName">edge</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
-        <value name="itemType">PACKAGES</value>
+        <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">EdgePkg1</value>
-          <value name="groupName">EdgePkg1;1.0</value>
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
           <null name="services"/>
         </record>
-        <number name="lineNumber" type="Long">1</number>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow</value>
-          <value name="serviceName">fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow</value>
-          <value name="displayName">testNestedFlow</value>
+          <value name="displayName">getCurrentDate</value>
+          <value name="serviceName">pub.date:getCurrentDate</value>
+          <value name="transformerSupport">true</value>
         </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
       </record>
     </record>
   </record>
