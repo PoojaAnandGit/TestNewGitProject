@@ -8,7 +8,19 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: EdgePkg1
+  version: "1.0"
   gitServerName: testInternal
   gitUrl: https://github.webmethods.io/hasv
   gitUsername: poan
   gitBranch: master
+services:
+- serviceName: project.testnewgit.integrations:edge
+  packages:
+  - name: TestNewGitProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.991
